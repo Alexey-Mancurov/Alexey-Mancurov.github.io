@@ -1,0 +1,90 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+.anchor {
+    position: absolute;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-family: 'lato_black', sans-serif;
+    font-size: 90px;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-family: 'lato_black', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: $green;
+    text-align: center;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-family: 'lato_bold', sans-serif;
+    font-size: 17px;
+}
+
+h4 {
+    padding: 0;
+    margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-family: 'lato_bold', sans-serif;
+    font-size: 13px;
+}
+
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-family: 'Asap', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.border-line {
+    max-width: 165px;
+    width: 100%;
+    height: 9px;
+    background-color: $green;
+    margin: 0 auto;
+    position: relative;
+    transform: translateY(6px);
+}
+
+.mt20 {
+    margin-top: 20px;
+}

@@ -1,0 +1,247 @@
+@media(max-width: 1200px) {
+
+    .works__sliger-inner,
+    .works__slider-item,
+    .swiper-pagination,
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: none;
+    }
+
+    .works__img-lower-display {
+        display: flex;
+    }
+
+    .about-page__box-img {
+        img {
+            width: auto;
+        }
+    }
+}
+
+@media(max-width: 1100px) {
+    .blog__sliger-inner {
+        display: none;
+
+        .slick-arrow,
+        .slick-dots {
+            display: none;
+        }
+    }
+
+    .blog__slider-inner-lower {
+        display: flex !important;
+        justify-content: center;
+
+        .blog__slider-item {
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+    }
+
+    .blog__item-text {
+        padding-right: 10px;
+        margin-left: 10px;
+    }
+
+    .client__sliger-inner-lower {
+        display: flex;
+    }
+
+    .client__sliger-inner {
+        display: none;
+    }
+}
+
+@media(max-width: 1000px) {
+    .about__inner {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .about__item {
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .before-footer__line {
+        display: none;
+    }
+
+    .before-footer__box {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .before-footer__inner {
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 850px) {
+    .contact__content {
+        display: block;
+
+    }
+
+    .contact__form {
+        margin-top: 70px;
+    }
+
+    .contact__info {
+        max-width: none;
+        text-align: left;
+    }
+
+    .page-works-info {
+        .container {
+            display: block;
+        }
+    }
+
+    .page-works-info__box {
+        margin: 0px auto;
+    }
+
+    .page-works-info__datail {
+        margin-right: 0;
+
+        &::after {
+            display: none;
+        }
+    }
+}
+
+@media(max-width: 800px) {
+    .main__img {
+        display: none;
+    }
+
+    .footer .container {
+        display: block;
+        width: 100%;
+
+        .footer__info,
+        .footer__social {
+            text-align: center;
+        }
+
+        .footer__social {
+            margin-top: 20px;
+        }
+
+        .footer__item-social-box+.footer__item-social-box {
+            margin-left: 5px;
+        }
+
+    }
+
+    .page-works__slider {
+        .slick-next {
+            right: -24px;
+        }
+    }
+
+    .page404__title {
+        font-size: 65px;
+    }
+
+    .page404__number {
+        font-size: 150px;
+    }
+
+    .page404__not-found {
+        font-size: 85px;
+    }
+}
+
+
+@media(max-width: 700px) {
+    .header__menu-btns {
+        display: block;
+
+    }
+
+    .header__box {
+        position: relative;
+    }
+
+    .header__menu-list {
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        right: 50%;
+        top: 45px;
+        width: 200px;
+
+        li {
+            display: block;
+            padding: 5px 10px;
+
+            &+li {
+                margin-top: 10px;
+            }
+
+            a {
+                display: block;
+                padding: 37px 20px;
+            }
+
+        }
+    }
+
+    .header__logo {
+        font-size: 38px;
+    }
+
+    .page404__box {
+        display: block;
+    }
+
+    .page404__or {
+        padding: 20px 0;
+    }
+
+    .page404__box-item+.page404__box-item {
+        margin: 0;
+    }
+
+    .page404__search::before {
+        right: -7px;
+    }
+}
+
+@media(max-width: 550px) {
+    h1 {
+        font-size: 55px;
+    }
+
+    .main__content-p {
+        max-width: 320px;
+        width: 100%;
+        margin: 20px 0px 0 10px;
+    }
+
+    .main__content-undertitle {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .works__slider-item-img {
+        margin-left: 0px !important;
+        width: 318px;
+    }
+
+    .about-page__box {
+        display: block;
+        text-align: center;
+    }
+
+    .page-works-info__datail-row {
+        min-width: initial;
+        max-width: 320px;
+    }
+}
