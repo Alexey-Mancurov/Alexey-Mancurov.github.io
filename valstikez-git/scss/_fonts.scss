@@ -1,0 +1,155 @@
+/* lato-700 - latin */
+@font-face {
+  font-family: 'lato_bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/lato-v17-latin-700.eot');
+  /* IE9 Compat Modes */
+  src: local(''),
+    url('../fonts/lato-v17-latin-700.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('../fonts/lato-v17-latin-700.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../fonts/lato-v17-latin-700.woff') format('woff'),
+    /* Modern Browsers */
+    url('../fonts/lato-v17-latin-700.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('../fonts/lato-v17-latin-700.svg#Lato') format('svg');
+  /* Legacy iOS */
+}
+
+
+/* lato-900 - latin */
+@font-face {
+  font-family: 'lato_black';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/lato-v17-latin-900.eot');
+  /* IE9 Compat Modes */
+  src: local(''),
+    url('../fonts/lato-v17-latin-900.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('../fonts/lato-v17-latin-900.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../fonts/lato-v17-latin-900.woff') format('woff'),
+    /* Modern Browsers */
+    url('../fonts/lato-v17-latin-900.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('../fonts/lato-v17-latin-900.svg#Lato') format('svg');
+  /* Legacy iOS */
+}
+
+
+/* asap-500 - latin */
+@font-face {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/asap-v13-latin-500.eot');
+  /* IE9 Compat Modes */
+  src: local(''),
+    url('../fonts/asap-v13-latin-500.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('../fonts/asap-v13-latin-500.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../fonts/asap-v13-latin-500.woff') format('woff'),
+    /* Modern Browsers */
+    url('../fonts/asap-v13-latin-500.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('../fonts/asap-v13-latin-500.svg#Asap') format('svg');
+  /* Legacy iOS */
+}
+
+// fonts icomoon
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot?p2plqb');
+  src: url('../fonts/icomoon.eot?p2plqb#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?p2plqb') format('truetype'),
+    url('../fonts/icomoon.woff?p2plqb') format('woff'),
+    url('../fonts/icomoon.svg?p2plqb#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before {
+  content: "\f002";
+}
+
+.icon-chevron-left:before {
+  content: "\f053";
+}
+
+.icon-chevron-right:before {
+  content: "\f054";
+}
+
+.icon-phone:before {
+  content: "\f095";
+}
+
+.icon-twitter:before {
+  content: "\f099";
+}
+
+.icon-facebook:before {
+  content: "\f09a";
+}
+
+.icon-facebook-f:before {
+  content: "\f09a";
+}
+
+.icon-globe:before {
+  content: "\f0ac";
+}
+
+.icon-angle-left:before {
+  content: "\f104";
+}
+
+.icon-angle-right:before {
+  content: "\f105";
+}
+
+.icon-angle-up:before {
+  content: "\f106";
+}
+
+.icon-angle-down:before {
+  content: "\f107";
+}
+
+.icon-tumblr:before {
+  content: "\f173";
+}
+
+.icon-behance:before {
+  content: "\f1b4";
+}
+
+.icon-pinterest-p:before {
+  content: "\f231";
+}
+
+.icon-vimeo:before {
+  content: "\f27d";
+}
